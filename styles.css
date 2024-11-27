@@ -35,6 +35,10 @@ p {
     text-align: justify;
 }
 
+p.footer {
+    font-size: 18px;
+    text-align: center;
+}
 
 p.img2 {
     margin-left: 50px;
@@ -223,6 +227,15 @@ a:link {
     align-items: center;
     height: 10vh;
 
+}
+
+.contact_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: middle;
+    align-items: center;
+    height: 20vh;
+    padding-left: 50px;
 }
 
 p.img-contact {
