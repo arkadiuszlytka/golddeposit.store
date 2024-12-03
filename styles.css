@@ -248,6 +248,23 @@ p.img-contact {
     margin-right: 20px;
 }
 
+.img8 {
+    margin-left: 50px;
+}
+
+.img2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.img_top {
+    width: 100vw;
+}
+
+.goldvsamericaimg {
+    height: 18vh;
+}
+
 @media (max-device-width: 1025px)
 {
 
@@ -319,13 +336,10 @@ p.img-contact {
     
     .top-block {
         display: flex;
-        object-fit: cover;
-        flex-direction: middle;
+        flex-direction: center;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        margin-bottom: 0;
-        padding-bottom: 0;
         }
     
     .first-block {
@@ -507,4 +521,35 @@ p.img-contact {
         padding-top: 0px;
     }
 
+    .img8 {
+        height: 35vh;
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+
+    .img2 {
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 50vh;
+    }
+    
+    .img_top {
+        height: 50vh;
+    }
+    
+    .img5 {
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 35vh; 
+    }
+
+    .img7 {
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 35vh; 
+    }
+
+    .goldvsamericaimg {
+        height: 4vh;
+    }
 }
