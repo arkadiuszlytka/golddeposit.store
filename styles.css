@@ -242,3 +242,253 @@ p.img-contact {
     margin-left: 150px;
     margin-right: 20px;
 }
+
+@media (max-device-width: 400px)
+{
+
+    .libre-caslon-text-regular {
+        font-family: "Libre Caslon Text", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .libre-caslon-text-bold {
+        font-family: "Libre Caslon Text", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .libre-caslon-text-regular-italic {
+        font-family: "Libre Caslon Text", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+    body { 
+        background-color:#F4E9DC; 
+        margin: 0;
+        padding: 0;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    span {
+        font-size: 30px;
+        text-align: justify;
+    }
+    
+    p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    
+    p.footer {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    p.img2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    a:link {
+        color: black;
+        text-decoration:none;
+        }
+        a:visited {
+        color: black;
+        }
+     
+    .contact-blok {
+        padding-right: 50px;
+        padding-top: 1px;
+    }
+    
+    
+    .top-block {
+        display: flex;
+        object-fit: cover;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        }
+    
+    .first-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .gold-of-penhalonga-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        background-color: #E4DBCF;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .investment-potential-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: middle;
+        align-items: center;
+        height: 100vh;
+        background-color: #E4DBCF;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .main-deposit-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 90px;
+    }
+    
+    .seconds-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        background-color: #E4DBCF;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .gold-market-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        background-color: #E4DBCF;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+    }
+    
+    .how-brics-block {
+        display: flex;
+        flex-direction: column;
+        justify-items: middle;
+        align-items: center;
+        height: 100vh;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .gold-market-title-block{
+        height: 100vh;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .gold-market-in-2024-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    
+    .gold-vs-american-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 50vh;
+        background-color: #E4DBCF;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    
+    .gold-price-2-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: middle;
+        align-items: center;
+        height: 50vh;
+        background-color: #E4DBCF;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .geopolitics-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    
+    .contact-1-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 15vh;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 70px;
+    }
+    
+    .contact-2-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: middle;
+        align-items: center;
+        height: 10vh;
+    
+    }
+    
+    .contact_footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: middle;
+        align-items: center;
+        height: 20vh;
+        padding-left: 50px;
+    }
+    
+    p.img-contact {
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+
+}
