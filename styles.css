@@ -265,6 +265,19 @@ p.img-contact {
     height: 18vh;
 }
 
+.img5 {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 35vh; 
+}
+
+
+.img7 {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 35vh; 
+}
+
 @media (max-device-width: 1025px)
 {
 
