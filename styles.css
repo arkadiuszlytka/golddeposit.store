@@ -153,14 +153,13 @@ a:link {
 .how-brics-block {
     display: flex;
     flex-direction: column;
-    justify-items: middle;
+    justify-items: center;
     align-items: center;
     height: 100vh;
     padding-left: 150px;
     padding-right: 150px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+    padding-top: 250px;
+    }
 
 .gold-market-title-block{
     height: 100vh;
@@ -257,6 +256,11 @@ p.img-contact {
     margin-right: 50px;
 }
 
+.img3 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .img_top {
     width: 100vw;
 }
@@ -270,9 +274,14 @@ p.img-contact {
     margin-right: 50px; 
 }
 
-
 .img7 {
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.img9 {
+    margin-top: 30px;
+    margin-left: 50px;
     margin-right: 50px;
 }
 
@@ -307,7 +316,7 @@ p.img-contact {
     }
     
     span {
-        font-size: 40px;
+        font-size: 50px;
         text-align: justify;
     }
     
@@ -356,26 +365,26 @@ p.img-contact {
     .first-block {
         display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         height: 100vh;
         padding-left: 50px;
         padding-right: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 0;
     }
     
     .gold-of-penhalonga-block {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         height: 100vh;
         background-color: #E4DBCF;
         padding-left: 50px;
         padding-right: 50px;
         padding-top: 20px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
     }
     
     .investment-potential-block {
@@ -436,8 +445,7 @@ p.img-contact {
         height: 100vh;
         padding-left: 50px;
         padding-right: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 30vh;
     }
     
     .gold-market-title-block{
@@ -535,32 +543,53 @@ p.img-contact {
     .img8 {
         height: 35vh;
         padding-left: 10px;
-        padding-top: 30px;
+        padding-top: 3vh;
     }
 
     .img2 {
-        margin-left: 10px;
-        margin-right: 10px;
-        height: 50vh;
+        margin-bottom: 0;
+        width: 100vw;
     }
     
+    .img3 {
+        height: 60%;
+        width: 100vw;
+        margin-bottom: 0px;
+    }
+
     .img_top {
-        height: 50vh;
+        height: 80vh;
+        margin-bottom: 0px;
     }
     
     .img5 {
         margin-left: 10px;
         margin-right: 10px;
+        padding-top: 3vh;
         height: 35vh; 
     }
 
     .img7 {
         margin-left: 10px;
         margin-right: 10px;
+        padding-top: 3vh;
         height: 35vh; 
+    }
+
+    .img9 {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 3vh;
+        height: 35vh;
+        width: 100vw; 
     }
 
     .goldvsamericaimg {
         height: 4vh;
+    }
+
+    h1.titletext {
+        padding-top: 5vh;
+        font-size: 60px;
     }
 }
