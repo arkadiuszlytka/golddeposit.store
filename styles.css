@@ -270,21 +270,21 @@ p.img-contact {
     }
     
     h2 {
-        font-size: 30px;
+        font-size: 50px;
     }
     
     span {
-        font-size: 30px;
+        font-size: 40px;
         text-align: justify;
     }
     
     p {
-        font-size: 18px;
+        font-size: 30px;
         text-align: justify;
     }
     
     p.footer {
-        font-size: 18px;
+        font-size: 10px;
         text-align: center;
     }
     
@@ -483,6 +483,7 @@ p.img-contact {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        font-size: 10px;
         height: 20vh;
         padding-left: 50px;
     }
