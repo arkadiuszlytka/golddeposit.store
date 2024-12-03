@@ -243,7 +243,7 @@ p.img-contact {
     margin-right: 20px;
 }
 
-@media (max-device-width: 400px)
+@media (max-device-width: 1025px)
 {
 
     .libre-caslon-text-regular {
