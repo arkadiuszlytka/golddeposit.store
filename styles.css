@@ -289,7 +289,7 @@ a:link {
     flex-direction: row;
     justify-content: middle;
     align-items: center;
-    height: 20vh;
+    height: 40vh;
     padding-left: 50px;
 }
 
@@ -349,6 +349,12 @@ p.img-contact {
 .img14  {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.phone_footer_img {
+    padding-top: 3vh;
+    width: 40%;
+    float: left;
 }
 
 @media (max-device-width: 1025px)
@@ -643,12 +649,13 @@ p.img-contact {
     
     .contact_footer {
         display: flex;
-        flex-direction: row;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         font-size: 10px;
-        height: 20vh;
-        padding-left: 20px;
+        height: 10vh;
+        padding-left: 0;
+        padding-right: 0;
     }
     
     p.img-contact {
@@ -657,7 +664,13 @@ p.img-contact {
     }
 
     .phone_footer_img {
-        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2vh;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        width: 50%;
     }
 
     .img2 {
@@ -787,6 +800,16 @@ p.img-contact {
         padding-top: 5vh;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .mail_footer_text {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone_footer_text {
+        justify-content: center;
+        align-items: center;
     }
 
 }
