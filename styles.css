@@ -649,11 +649,11 @@ p.img-contact {
     
     .contact_footer {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         font-size: 10px;
-        height: 10vh;
+        height: 20vh;
         padding-left: 0;
         padding-right: 0;
     }
@@ -667,9 +667,8 @@ p.img-contact {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 2vh;
-        padding-left: 25vw;
-        padding-right: 25vw;
+        padding-top: 1vh;
+        padding-left: 5vw;
         width: 50%;
     }
 
