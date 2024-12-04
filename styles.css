@@ -87,6 +87,18 @@ a:link {
     padding-bottom: 10px;
 }
 
+.history_of_penhalonga {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .gold-of-penhalonga-block {
     display: flex;
     flex-direction: row;
@@ -125,6 +137,31 @@ a:link {
     padding-bottom: 90px;
 }
 
+.gold-mine-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: #E4DBCF;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.muriel-gold-mine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .seconds-block {
     display: flex;
     flex-direction: row;
@@ -137,6 +174,20 @@ a:link {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.gold-prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: #E4DBCF;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 
 .gold-market-block {
     display: flex;
@@ -285,6 +336,21 @@ p.img-contact {
     margin-right: 50px;
 }
 
+.img11 {
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+
+.img13 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.img14  {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 @media (max-device-width: 1025px)
 {
 
@@ -331,13 +397,13 @@ p.img-contact {
     }
     
     p.img2 {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     p.img8 {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0;
+        margin-right: 0;
     }
     
     a:link {
@@ -349,7 +415,7 @@ p.img-contact {
         }
      
     .contact-blok {
-        padding-right: 50px;
+        padding-right: 20px;
         padding-top: 1px;
     }
     
@@ -368,8 +434,20 @@ p.img-contact {
         justify-content: space-between;
         align-items: center;
         height: 100vh;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .history_of_penhalonga {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        padding-left: 20px;
+        padding-right: 20px;
         padding-top: 20px;
         padding-bottom: 0;
     }
@@ -381,8 +459,8 @@ p.img-contact {
         align-items: center;
         height: 100vh;
         background-color: #E4DBCF;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
         padding-top: 20px;
         padding-bottom: 0px;
     }
@@ -390,78 +468,117 @@ p.img-contact {
     .investment-potential-block {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         height: 100vh;
         background-color: #E4DBCF;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: 0;
     }
     
     .main-deposit-block {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         height: 100vh;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 10px;
-        padding-bottom: 90px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 0;
     }
     
-    .seconds-block {
+    .gold-mine-block {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: column-reverse;
+        justify-content: space-between;
         align-items: center;
         height: 100vh;
         background-color: #E4DBCF;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .muriel-gold-mine{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .seconds-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        background-color: #E4DBCF;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .gold-prices {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        background-color: #E4DBCF;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: 0;
     }
     
     .gold-market-block {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;;
         align-items: center;
         height: 100vh;
         background-color: #E4DBCF;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0;
     }
     
     .how-brics-block {
         display: flex;
         flex-direction: column;
-        justify-items: center;
+        justify-content: space-evenly;
         align-items: center;
         height: 100vh;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 30vh;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 1vh;
     }
     
     .gold-market-title-block{
         height: 100vh;
         padding-top: 20px;
-        padding-bottom: 40px;
+        padding-bottom: 0;
         justify-content: bottom;
     }
     
     .gold-market-in-2024-block {
         display: flex;
         flex-direction: column;
-        justify-content: bottom;
-        align-items: bottom;
-        padding-left: 50px;
-        padding-right: 50px;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0;
     }
     
     
@@ -469,13 +586,14 @@ p.img-contact {
         display: flex;
         flex-direction: row;
         justify-content: bottom;
-        align-items: bottom;
+        align-items: center;
         height: 50vh;
         background-color: #E4DBCF;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
         padding-top: 10px;
-        padding-bottom: 0px;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
     
     .gold-price-2-block {
@@ -485,20 +603,22 @@ p.img-contact {
         align-items: center;
         height: 50vh;
         background-color: #E4DBCF;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0;
+        margin-top: 0;
     }
     
     .geopolitics-block {
         display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         height: 100vh;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
         padding-top: 10px;
-        padding-bottom: 40px;
+        padding-bottom: 0;
     }
     
     .contact-1-block {
@@ -507,8 +627,8 @@ p.img-contact {
         justify-content: space-evenly;
         align-items: center;
         height: 15vh;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
         padding-top: 70px;
     }
     
@@ -528,68 +648,145 @@ p.img-contact {
         align-items: center;
         font-size: 10px;
         height: 20vh;
-        padding-left: 50px;
+        padding-left: 20px;
     }
     
     p.img-contact {
-        margin-left: 50px;
-        margin-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .phone_footer_img {
         padding-top: 0px;
     }
 
-    .img8 {
-        height: 35vh;
-        padding-left: 10px;
-        padding-top: 3vh;
-    }
-
     .img2 {
+        object-fit: cover;
+        overflow: hidden;
         margin-bottom: 0;
         width: 100vw;
     }
     
     .img3 {
-        height: 60%;
+        flex: 1;
         width: 100vw;
+        overflow: hidden;
+        object-fit: cover;
         margin-bottom: 0px;
+    }
+
+    .img4 {
+        height: 40vh;
+        width: 100vw;
+        object-fit: cover;
+        overflow: hidden;
+        margin-bottom: 0;
     }
 
     .img_top {
         height: 80vh;
         object-fit: cover;
-        margin-bottom: 0px;
+        overflow: hidden;
+        margin-bottom: 0;
     }
     
     .img5 {
-        margin-left: 10px;
-        margin-right: 10px;
-        height: 35vh; 
+        flex: 1;
+        overflow: hidden;
+        object-fit: cover;
+        width: 100vw; 
     }
 
     .img7 {
-        margin-left: 10px;
-        margin-right: 10px;
+        object-fit: cover;
         padding-top: 3vh;
         height: 35vh; 
     }
 
+    .img8 {
+        height: 35vh;
+        width: 100vw;
+        object-fit: cover;
+        overflow: hidden;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
     .img9 {
-        margin-left: 10px;
-        margin-right: 10px;
+        object-fit: cover;
+        overflow: hidden;
         padding-top: 3vh;
         height: 35vh;
         width: 100vw; 
     }
 
+    .img10 {
+        overflow: hidden;
+        object-fit: cover;
+        width: 100vw; 
+    }
+
+    .img11 {
+        overflow: hidden;
+        object-fit: cover;
+        height: 60vh;
+        width: 100vw; 
+    }
+
+    .img13 {
+        overflow: hidden;
+        object-fit: cover;
+        width: 100vw; 
+    }
+
+    .img14 {
+        overflow: hidden;
+        object-fit: cover;
+        height: 65vh;
+        width: 100vw; 
+        margin-bottom: 0;
+    }
+
     .goldvsamericaimg {
+        object-fit: cover;
         height: 4vh;
     }
 
     h1.titletext {
+        overflow: hidden;
         padding-top: 5vh;
         font-size: 60px;
     }
+
+    .text221 {
+        flex: 0;
+    }
+
+    .potential_title_text {
+        padding-top: 20vh;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .potential_text {
+        padding-top: 5vh;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .muriel_text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .gold_prices_titletext {
+        padding-top: 15vh;        
+    }
+
+    .gold_prices_text {
+        padding-top: 5vh;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
