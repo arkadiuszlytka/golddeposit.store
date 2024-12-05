@@ -293,9 +293,16 @@ a:link {
     padding-left: 50px;
 }
 
-p.img-contact {
+.img-contact {
     margin-left: 150px;
     margin-right: 20px;
+}
+
+.gold_logo_contact {
+    float: left;
+    height: 100vh;
+    width: 50%;
+    margin-bottom: 0;
 }
 
 .img8 {
@@ -665,6 +672,7 @@ p.img-contact {
 
     .phone_footer_img {
         display: flex;
+        overflow: hidden;
         justify-content: center;
         align-items: center;
         padding-top: 1vh;
@@ -809,6 +817,14 @@ p.img-contact {
     .phone_footer_text {
         justify-content: center;
         align-items: center;
+    }
+
+    .gold_logo_contact {
+        display: none;
+        float: left;
+        height: 100vh;
+        width: 50%;
+        margin-bottom: 0;
     }
 
 }
